@@ -29,7 +29,6 @@ public class MapUtil {
             e.printStackTrace();
         }
 
-
         ground.setSize(ar.size(), ar.get(0).length());
 
         Square[][] map = new Square[ground.getLength()][ground.getWidth()];

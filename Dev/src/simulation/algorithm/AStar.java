@@ -1,4 +1,4 @@
-package algorithm;
+package simulation.algorithm;
 
 import ui.model.Square;
 import ui.model.Ground;
