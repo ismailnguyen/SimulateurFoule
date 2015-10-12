@@ -60,7 +60,7 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25712517">
+    <splitter split-orientation="horizontal" split-proportion="0.3574969">
       <split-first>
         <leaf>
           <file leaf-file-name="Minion.java" pinned="false" current-in-tab="false">
@@ -217,11 +217,10 @@
           <file leaf-file-name="MapUtil.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/utils/MapUtil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7938258">
-                  <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.056229327">
+                  <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#681#689#0" expanded="true" />
+                    <element signature="e#583#591#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -815,12 +814,12 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1444384653679" duration="1558000" />
       <workItem from="1444386452032" duration="114000" />
-      <workItem from="1444673658485" duration="9072000" />
+      <workItem from="1444673658485" duration="9229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12046000" />
+    <option name="totallyTimeSpent" value="12203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1225,11 +1224,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/MapUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7938258">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.056229327">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#681#689#0" expanded="true" />
+            <element signature="e#583#591#0" expanded="true" />
           </folding>
         </state>
       </provider>

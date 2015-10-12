@@ -1,17 +1,12 @@
 package utils;
 
-import ui.model.Ground;
-import ui.model.Square;
-//Problem ???
-//import ui.model.SpecialPoint;
+import ui.model.*;
 import ui.model.square.*;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Map;
 
 /**
  * Created by Ismail on 12-10-2015.
@@ -41,8 +36,7 @@ public class MapUtil {
 
         for (int i = 0; i < ar.size(); i++)
             for (int j = 0; j < ar.get(i).length(); j++) {
-                //Problem : won't find SpecialPoint class ???
-                //ground.setSquare(new SpecialPoint(i, j), Square.getType(ar.get(i).charAt(j)));
+                ground.setSquare(new SpecialPoint(i, j), Square.getType(ar.get(i).charAt(j)));
 
                 if (Square.getType(ar.get(i).charAt(j)) == new Departure())
                     map[i][j].setNbPeople(Integer.parseInt(ConfigUtil.getConfiguration("starters")));
