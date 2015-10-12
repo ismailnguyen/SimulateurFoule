@@ -1,0 +1,18 @@
+# Map file
+ground=map.txt
+
+# Tiles
+tiles=/asset/tiles.png
+
+# Speed (milliseconds)
+speed=100
+
+# Number of character per departure
+starters=50
+
+# Map reading (char binding to simulator elements)
+wall=*
+grass=G
+space= 
+departure=D
+arrival=A
