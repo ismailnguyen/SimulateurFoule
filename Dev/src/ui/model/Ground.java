@@ -1,6 +1,6 @@
 package ui.model;
 
-import utils.MapUtil;
+import ui.model.square.ISquare;
 
 /**
  * Created by Ismail on 09-10-2015.
@@ -43,5 +43,13 @@ public class Ground {
     public void setSize(Integer _length, Integer _width){
         this.length = _length;
         this.width = _width;
+    }
+
+    public void setSquare(SpecialPoint _position, ISquare _type){
+        Square square = new Square();
+        square.setPosition(_position);
+        square.setType(_type);
+
+        this.map[_position.getX()][_position.getY()] = square;
     }
 }
