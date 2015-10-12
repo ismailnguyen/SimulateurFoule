@@ -34,4 +34,19 @@ public class SpecialPoint {
     public void setX(Integer _x) {
         x = _x;
     }
+
+    /***
+     *
+     * @return [x, y]
+     */
+    public String toString(){
+        StringBuffer sb = new StringBuffer();
+        sb.append("[ ");
+        sb.append(this.x);
+        sb.append(", ");
+        sb.append(this.y);
+        sb.append("]");
+
+        return sb.toString();
+    }
 }
