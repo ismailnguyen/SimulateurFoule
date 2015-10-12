@@ -6,20 +6,42 @@ import utils.MapUtil;
  * Created by Ismail on 09-10-2015.
  */
 public class Ground {
-    private Square[][] ground;
+    private String name;
+    private Square[][] map;
     private Integer length;
     private Integer width;
 
-    public Ground(Square[][] map)
+    public Ground(String _name)
     {
-        this.ground = map;
+        this.name = _name;
     }
 
-    public Square[][] getGround() {
-        return ground;
+    public Square[][] getMap() {
+        return map;
     }
 
-    public void setGround(Square[][] g) {
-        this.ground = g;
+    public void setMap(Square[][] _map) {
+        this.map = _map;
+    }
+
+    public Integer getLength(){
+        return this.length;
+    }
+
+    public void setLength(Integer _length){
+        this.length = _length;
+    }
+
+    public Integer getWidth(){
+        return this.width;
+    }
+
+    public void setWidth(Integer _width){
+        this.width = _width;
+    }
+
+    public void setSize(Integer _length, Integer _width){
+        this.length = _length;
+        this.width = _width;
     }
 }
