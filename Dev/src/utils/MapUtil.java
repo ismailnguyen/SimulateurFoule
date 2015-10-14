@@ -32,6 +32,7 @@ public class MapUtil {
         ground.setSize(ar.size(), ar.get(0).length());
 
         Square[][] map = new Square[ground.getLength()][ground.getWidth()];
+        ground.setMap(map);
 
         for (int i = 0; i < ar.size(); i++)
             for (int j = 0; j < ar.get(i).length(); j++) {

@@ -14,6 +14,7 @@ public class Ground {
     public Ground(String _name)
     {
         this.name = _name;
+        this.map = new Square[][]{};
     }
 
     public Square[][] getMap() {

@@ -1,5 +1,5 @@
 # Map file
-ground=map.txt
+ground=asset/map/map1.txt
 
 # Tiles
 tiles=/asset/tiles.png
