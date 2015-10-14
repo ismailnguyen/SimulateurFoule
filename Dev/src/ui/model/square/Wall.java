@@ -8,4 +8,9 @@ public class Wall implements ISquare {
     public Type getType() {
         return Type.Wall;
     }
+
+    @Override
+    public String toString() {
+        return "W";
+    }
 }

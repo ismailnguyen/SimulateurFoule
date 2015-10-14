@@ -8,4 +8,9 @@ public class Arrival implements ISquare {
     public Type getType() {
         return Type.Arrival;
     }
+
+    @Override
+    public String toString() {
+        return "A";
+    }
 }

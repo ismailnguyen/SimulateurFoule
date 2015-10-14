@@ -8,4 +8,9 @@ public class Grass implements ISquare {
     public Type getType() {
         return Type.Grass;
     }
+
+    @Override
+    public String toString() {
+        return "G";
+    }
 }

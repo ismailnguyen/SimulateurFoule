@@ -46,6 +46,10 @@ public class Ground {
         this.width = _width;
     }
 
+    public Square getSquare(SpecialPoint _position) {
+        return this.map[_position.getX()][_position.getY()];
+    }
+
     public void setSquare(SpecialPoint _position, ISquare _type){
         Square square = new Square();
         square.setPosition(_position);

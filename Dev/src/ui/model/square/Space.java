@@ -8,4 +8,9 @@ public class Space implements ISquare {
     public Type getType() {
         return Type.Space;
     }
+
+    @Override
+    public String toString() {
+        return "S";
+    }
 }

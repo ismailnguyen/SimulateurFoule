@@ -8,4 +8,9 @@ public class Departure implements ISquare {
     public Type getType() {
         return Type.Departure;
     }
+
+    @Override
+    public String toString() {
+        return "D";
+    }
 }

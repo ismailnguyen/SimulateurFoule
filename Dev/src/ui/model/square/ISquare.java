@@ -13,4 +13,5 @@ public interface ISquare {
     }
 
     public Type getType();
+    public String toString();
 }
