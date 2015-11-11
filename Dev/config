@@ -1,8 +1,11 @@
+# Window title
+title=Minions
+
 # Map file
-ground=asset/map/map1.txt
+ground=map/1.txt
 
 # Tiles
-tiles=/asset/tiles.png
+tiles=Images/tile.png
 
 # Speed (milliseconds)
 speed=100
@@ -13,6 +16,6 @@ starters=50
 # Map reading (char binding to simulator elements)
 wall=*
 grass=G
-space= 
+space=\ 
 departure=D
 arrival=A
